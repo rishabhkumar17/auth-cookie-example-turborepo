@@ -1,9 +1,9 @@
-import './App.css'
+import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Signup } from './components/Signup';
-import { Signin } from './components/Signin';
-import { User } from './components/User';
+import { Signup } from "./components/Signup";
+import { Signin } from "./components/Signin";
+import { User } from "./components/User";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path={"/user"} element={<User />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
